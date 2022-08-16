@@ -1,0 +1,21 @@
+{
+  "name": "jetbrains-new-dark-theme",
+  "displayName": "Jetbrains New Dark Theme",
+  "description": "A theme base on Jetbrans new dark ui color",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jetbrains New Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Jetbrains New Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
