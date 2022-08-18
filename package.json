@@ -4,6 +4,7 @@
   "description": "A theme base on Jetbrans new dark ui color",
   "version": "1.0.1",
   "publisher": "MichaelZhou",
+  "license": "./LICENCE",
   "engines": {
     "vscode": "^1.70.0"
   },
