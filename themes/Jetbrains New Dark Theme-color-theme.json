@@ -1,6 +1,6 @@
 {
 	"name": "Jetbrains New Dark Theme",
-	"semanticHighlighting": true,
+	"semanticHighlighting": false,
 	"semanticTokenColors": {
 		// "comment": "#77B767",
 		// "function": "#ff0000",

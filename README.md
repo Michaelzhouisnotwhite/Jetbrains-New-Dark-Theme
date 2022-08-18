@@ -1,16 +1,63 @@
-# jetbrains-new-dark-theme README
+# Jetbrains New Dark Theme
 
-## Working with Markdown
+## NOTE
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+It's not a fully test theme. By now it's only pass python syntax support. If you have any questions or advices when coding other language with this theme. Please tell [me](https://github.com/Michaelzhouisnotwhite/Jetbrains-New-Dark-Theme/issues)!
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
-## For more information
+## Description
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+🚀🚀🚀 A VScode theme based on Jetbrains New Ui on Dark Theme.
+
+<!-- ## Syntax Support
+
+- Python
+- Javascript
+- TypeScript
+- React, Vue
+- HTML
+- Markdown
+- JSON
+- CSS, SCSS
+- Dockerfile
+- Go
+- More and more... -->
+
+## Installation
+
+Install from marketplace <https://marketplace.visualstudio.com/items?itemName=MichaelZhou.fleet-theme>
+
+### Install Jetbrains Mono
+
+- Downloaded and install JetBrains Mono font <https://www.jetbrains.com/lp/mono>
+
+- Add this snippet in your "settings.json":
+
+```js
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+```
+
+## Screenshots
+
+<!-- **The origin screenshot:**
+
+![origin](.github/origin.png)
+
+**Vscode with Jetbrain Fleet🚀**
+
+![fleet](.github/python-screenshots.png)
+
+Screenshot of vue.js
+
+![gif1](.github/workspace-gif.gif)
+
+Screenshot of python -->
+
+![gif2](.github/python-screenshots.png)
 
 **Enjoy!**
+
+If you have any suggestions, create an issue on <https://github.com/Michaelzhouisnotwhite/Jetbrains-New-Dark-Theme/issues>
+
