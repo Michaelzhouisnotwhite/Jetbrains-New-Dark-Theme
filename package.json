@@ -2,7 +2,7 @@
   "name": "jetbrains-new-dark-theme",
   "displayName": "Jetbrains New Dark Theme",
   "description": "A theme base on Jetbrans new dark ui color",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.70.0"
   },
