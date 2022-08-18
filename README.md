@@ -1,9 +1,8 @@
 # Jetbrains New Dark Theme
 
-## NOTE
+## CAUTION
 
-It's not a fully test theme. By now it's only pass python syntax support. If you have any questions or advices when coding other language with this theme. Please tell [me](https://github.com/Michaelzhouisnotwhite/Jetbrains-New-Dark-Theme/issues)!
-
+This is not a fully test theme. By now it's only pass through python syntax support. If you have any questions or advices when coding other language with this theme. Please tell [me](https://github.com/Michaelzhouisnotwhite/Jetbrains-New-Dark-Theme/issues)!
 
 ## Description
 
@@ -25,7 +24,7 @@ It's not a fully test theme. By now it's only pass python syntax support. If you
 
 ## Installation
 
-Install from marketplace <https://marketplace.visualstudio.com/items?itemName=MichaelZhou.fleet-theme>
+Install from marketplace <https://marketplace.visualstudio.com/items?itemName=MichaelZhou.jetbrains-new-dark-theme>
 
 ### Install Jetbrains Mono
 

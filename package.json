@@ -3,6 +3,7 @@
   "displayName": "Jetbrains New Dark Theme",
   "description": "A theme base on Jetbrans new dark ui color",
   "version": "1.0.0",
+  "publisher": "MichaelZhou",
   "engines": {
     "vscode": "^1.70.0"
   },
