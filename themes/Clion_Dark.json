@@ -6,6 +6,12 @@
     "colors": {
         "statusBar.debuggingBackground": "#d47c00",
         "editor.findMatchBackground": "#114957",
+        "editor.selectionBackground": "#214283",
+        "editor.wordHighlightBackground": "#373b3960",
+        "editor.findMatchHighlightBackground":"#11495750",
+        // "editor.findMatchHighlightBorder":"#9DA0A8",
+        "editor.findMatchBorder":"#9DA0A8",
+        // "editor.findMatchBorder":"#11495780"
     },
     "semanticTokenColors": {
         "function.builtin": "#8888C6",
