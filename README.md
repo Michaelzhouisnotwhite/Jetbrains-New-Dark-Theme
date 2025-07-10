@@ -44,7 +44,6 @@ Install from marketplace <https://marketplace.visualstudio.com/items?itemName=Mi
 ```
 
 ## Screenshots
-
 <!-- **The origin screenshot:**
 
 ![origin](.github/origin.png)
