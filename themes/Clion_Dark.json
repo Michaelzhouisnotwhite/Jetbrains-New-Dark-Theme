@@ -8,14 +8,25 @@
         "editor.findMatchBackground": "#114957",
         "editor.selectionBackground": "#214283",
         "editor.wordHighlightBackground": "#373b3960",
-        "editor.findMatchHighlightBackground":"#11495750",
+        "editor.findMatchHighlightBackground": "#11495750",
         // "editor.findMatchHighlightBorder":"#9DA0A8",
-        "editor.findMatchBorder":"#9DA0A8",
+        "editor.findMatchBorder": "#9DA0A8",
         // "editor.findMatchBorder":"#11495780"
     },
     "semanticTokenColors": {
-        "function.builtin": "#8888C6",
-        "*.decorator": "#debc7b",
+        "function.builtin:python": "#8888C6",
+        "class:cpp":"#b9bcd1",
+        "class.declaration.definition.constructorOrDestructor.classScope:cpp":"#56a8f5",
+        "class.declaration.declaration.constructorOrDestructor.classScope:cpp":"#56a8f5",
+        "function:cpp":"#56a8f5",
+        "function.globalScope:cpp":"#bcbec4",
+        "function.declaration.globalScope:cpp":"#56a8f5",
+        "method:cpp":"#56a8f5",
+        "method.classScope:cpp":"#b9bcd1",
+        "class.globalScope:cpp":"#b5b6e3",
+        "method.declaration.definition.classScope:cpp":"#56a8f5",
+        "class.declaration.definition.globalScope:cpp":"#56a8f5",
+        "*.decorator:python": "#debc7b",
         "selfParameter:python": "#94558D",
         "parameter:python": "#B189F5",
         "magicFunction:python": "#B200B2",
@@ -78,6 +89,10 @@
             "scope": [
                 "keyword.control.directive.include.cpp",
                 "meta.preprocessor.include.cpp",
+                "keyword.control.directive.endif.cpp",
+                "keyword.control.directive.define.cpp",
+                "keyword.control.directive.conditional.ifndef.cpp",
+                "keyword.control.directive.conditional.ifdef.cpp",
                 "source.cpp"
             ],
             "name": "c++ include",
@@ -118,7 +133,7 @@
                 "meta.body.function.definition.cpp",
                 "meta.function.definition.cpp",
                 "source.cpp",
-                "entity.name.type.class.cpp",
+                // "entity.name.type.class.cpp",
                 "support.type.built-in.posix-reserved.cpp",
                 "support.type.posix-reserved.cpp"
             ],
@@ -130,11 +145,23 @@
         },
         {
             "scope": [
+                "storage.type.namespace.directive.cpp",
+                "storage.type.namespace.definition.cpp",
+                "storage.type.class.cpp",
+                "storage.type.modifier.access.control.public.cpp",
                 "storage.type.built-in.primitive.cpp",
                 "storage.type.primitive.cpp",
                 "meta.body.function.definition.cpp",
                 "meta.function.definition.cpp",
-                "source.cpp"
+                "storage.type.template.cpp",
+                "storage.type.template.argument.typename.cpp",
+                "source.cpp",
+                "keyword.control.throw.cpp",
+                "keyword.control.while.cpp",
+                "keyword.control.return.cpp",
+                "keyword.control.continue.cpp",
+                "storage.type.modifier.access.public.cpp",
+                "keyword.control.if.cpp"
             ],
             "name": "c++ auto",
             "settings": {
@@ -147,6 +174,7 @@
                 "punctuation.separator.scope-resolution.namespace.using.cpp",
                 "punctuation.separator.namespace.access.cpp",
                 "meta.using-namespace.cpp",
+                "punctuation.separator.colon.inheritance.cpp",
                 "source.cpp"
             ],
             "name": "c++ ::",
@@ -200,6 +228,7 @@
                 "entity.name.type.cpp",
                 "entity.name.type.parameter.cpp",
                 "storage.type.built-in.cpp",
+                "entity.name.type.template.cpp",
                 "storage.type.cpp"
             ],
             "name": "c++ std::string string",
@@ -252,7 +281,11 @@
                 "punctuation.section.block.end.bracket.curly.class.cpp",
                 "punctuation.section.angle-brackets.begin.template.call.cpp",
                 "punctuation.section.angle-brackets.end.template.call.cpp",
-                "keyword.operator.comparison.cpp"
+                "keyword.operator.comparison.cpp",
+                "punctuation.section.parameters.begin.bracket.round.special.constructor.cpp",
+                "punctuation.section.parameters.end.bracket.round.special.constructor.cpp",
+                "punctuation.section.angle-brackets.begin.template.definition.cpp",
+                "punctuation.section.angle-brackets.end.template.definition.cpp"
             ],
             "name": "c++ 括号",
             "settings": {
@@ -267,6 +300,41 @@
             "name": "c++ 预处理",
             "settings": {
                 "foreground": "#908b25",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "variable.other.property.cpp",
+            ],
+            "name": "c++ 成员变量",
+            "settings": {
+                "foreground": "#9373a5",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function.definition.special.constructor.cpp",
+                "entity.name.function.constructor.cpp"
+            ],
+            "name": "c++ c成员函数",
+            "settings": {
+                "foreground": "#56a8f5",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function.definition.special.constructor.cpp",
+                "entity.name.scope-resolution.function.call.cpp",
+                "entity.name.function.definition.special.member.destructor.cpp",
+                "entity.name.function.destructor.cpp",
+                "entity.name.function.constructor.cpp"
+            ],
+            "name": "c++ c成员函数",
+            "settings": {
+                "foreground": "#56a8f5",
                 "fontStyle": ""
             }
         }
