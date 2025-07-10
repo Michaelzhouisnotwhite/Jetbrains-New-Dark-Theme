@@ -66,6 +66,10 @@ Screenshot of python -->
 
 ![pycharm](.github/pycharm01.png)
 
+**vscode c++:**
+
+![alt text](./.github/clion_c++.png)
+
 **Enjoy!**
 
 If you have any suggestions, create an issue on [Jetbrains-New-Dark-Theme.issues](https://github.com/Michaelzhouisnotwhite/Jetbrains-New-Dark-Theme/issues)
