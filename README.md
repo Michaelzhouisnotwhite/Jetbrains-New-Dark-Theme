@@ -6,10 +6,10 @@ This is not a fully test theme. By now it's only pass through python syntax supp
 
 ## Description
 
-![version](https://vsmarketplacebadge.apphb.com/version/MichaelZhou.jetbrains-new-dark-theme.svg)
+<!-- ![version](https://vsmarketplacebadge.apphb.com/version/MichaelZhou.jetbrains-new-dark-theme.svg)
 ![installs](https://vsmarketplacebadge.apphb.com/installs/MichaelZhou.jetbrains-new-dark-theme.svg)
 ![downloads](https://vsmarketplacebadge.apphb.com/downloads/MichaelZhou.jetbrains-new-dark-theme.svg)
-![rating](https://vsmarketplacebadge.apphb.com/rating-star/MichaelZhou.jetbrains-new-dark-theme.svg)
+![rating](https://vsmarketplacebadge.apphb.com/rating-star/MichaelZhou.jetbrains-new-dark-theme.svg) -->
 
 🚀🚀🚀 A VScode theme based on Jetbrains New Ui on Dark Theme.
 

@@ -1,0 +1,268 @@
+{
+    "name": "CLion Dark",
+    "$schema": "vscode://schemas/color-theme",
+    "semanticHighlighting": true,
+    "include": "./JetBrains New UI Dark-color-theme.json",
+    "colors": {
+        "statusBar.debuggingBackground": "#d47c00",
+        "editor.findMatchBackground": "#114957",
+    },
+    "semanticTokenColors": {
+        "function.builtin": "#8888C6",
+        "*.decorator": "#debc7b",
+        "selfParameter:python": "#94558D",
+        "parameter:python": "#B189F5",
+        "magicFunction:python": "#B200B2",
+        "function.declaration:python": "#debc7b",
+        "method:python": "#debc7b"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "keyword.control",
+                "storage.type"
+            ],
+            "settings": {
+                "foreground": "#749DED",
+            },
+        },
+        {
+            "scope": "meta.function-call.arguments.python",
+            "settings": {
+                "foreground": "#CED0D6",
+                "fontStyle": ""
+            },
+        },
+        {
+            "scope": "string.quoted.single.python",
+            "settings": {
+                "foreground": "#7EC482",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "string.quoted.binary.single.python",
+            "settings": {
+                "foreground": "#A5C261",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "meta.function-call.python",
+            "settings": {
+                "foreground": "#debc7b",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.parameter.function-call.python",
+            "settings": {
+                "foreground": "#AA4926",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "constant.numeric.dec.python",
+            "settings": {
+                "foreground": "#D981DE",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "keyword.control.directive.include.cpp",
+                "meta.preprocessor.include.cpp",
+                "source.cpp"
+            ],
+            "name": "c++ include",
+            "settings": {
+                "foreground": "#b3ae60",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.other.lt-gt.include.cpp",
+                "meta.preprocessor.include.cpp",
+                "source.cpp"
+            ],
+            "name": "c++ include file",
+            "settings": {
+                "foreground": "#6aab73",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "entity.name.namespace.cpp",
+                "entity.name.scope-resolution.cpp",
+                "meta.body.function.definition.cpp",
+                "meta.function.definition.cpp",
+                "source.cpp"
+            ],
+            "name": "c++ namespace",
+            "settings": {
+                "foreground": "#b5b6e3",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "entity.name.scope-resolution.function.call.cpp",
+                "meta.body.function.definition.cpp",
+                "meta.function.definition.cpp",
+                "source.cpp",
+                "entity.name.type.class.cpp",
+                "support.type.built-in.posix-reserved.cpp",
+                "support.type.posix-reserved.cpp"
+            ],
+            "name": "c++ fmt::",
+            "settings": {
+                "foreground": "#b5b6e3",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "storage.type.built-in.primitive.cpp",
+                "storage.type.primitive.cpp",
+                "meta.body.function.definition.cpp",
+                "meta.function.definition.cpp",
+                "source.cpp"
+            ],
+            "name": "c++ auto",
+            "settings": {
+                "foreground": "#cf8e6d",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "punctuation.separator.scope-resolution.namespace.using.cpp",
+                "punctuation.separator.namespace.access.cpp",
+                "meta.using-namespace.cpp",
+                "source.cpp"
+            ],
+            "name": "c++ ::",
+            "settings": {
+                "foreground": "#bcbec4",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function.call.cpp",
+                "entity.name.function.cpp",
+                "meta.function.definition.body.lambda.cpp",
+                "meta.body.function.definition.cpp",
+                "meta.function.definition.cpp",
+                "source.cpp"
+            ],
+            "name": "c++ ::println",
+            "settings": {
+                "foreground": "#bcbec4",
+                "fontStyle": ""
+            },
+        },
+        {
+            "scope": [
+                "support.function.cpp",
+                "punctuation.terminator.statement.cpp",
+                "storage.modifier.reference.cpp",
+                "meta.function.definition.parameters.lambda.cpp",
+                "entity.name.type.parameter.cpp",
+                "meta.parameter.cpp",
+                "meta.assignment.cpp",
+                "entity.name.function.member.cpp",
+                "meta.body.function.definition.cpp",
+                "meta.function.definition.cpp",
+                "punctuation.separator.dot-access.cpp",
+                "keyword.other.unit.user-defined.cpp",
+                "keyword.other.suffix.literal.user-defined.integer.cpp",
+                "storage.modifier.pointer.cpp",
+                "punctuation.separator.delimiter.comma.cpp",
+                "source.cpp"
+            ],
+            "name": "c++ ",
+            "settings": {
+                "foreground": "#bcbec4",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type.cpp",
+                "entity.name.type.parameter.cpp",
+                "storage.type.built-in.cpp",
+                "storage.type.cpp"
+            ],
+            "name": "c++ std::string string",
+            "settings": {
+                "foreground": "#b9bcd1",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "punctuation.section.block.end.bracket.curly.cpp",
+                "punctuation.section.block.begin.bracket.curly.cpp",
+                "punctuation.definition.parameters.begin.lambda.cpp",
+                "punctuation.definition.parameters.end.lambda.cpp",
+            ],
+            "name": "c++ {std::string string}",
+            "settings": {
+                "foreground": "#54a857",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric.decimal.cpp",
+                "keyword.other.unit.suffix.integer.cpp",
+                "keyword.other.suffix.literal.built-in.integer.cpp",
+                "meta.function.definition.cpp",
+                "meta.body.function.definition.cpp",
+                "source.cpp"
+            ],
+            "name": "c++ 1234",
+            "settings": {
+                "foreground": "#2aacb8",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "punctuation.section.arguments.begin.bracket.round.function.call.cpp",
+                "punctuation.section.arguments.begin.bracket.round.function.member.cpp",
+                "punctuation.section.arguments.end.bracket.round.function.call.cpp",
+                "punctuation.section.arguments.end.bracket.round.function.member.cpp",
+                "punctuation.section.parameters.begin.bracket.round.cpp",
+                "punctuation.section.parameters.end.bracket.round.cpp",
+                "punctuation.definition.capture.begin.lambda.cpp",
+                "punctuation.definition.capture.end.lambda.cpp",
+                "punctuation.section.block.begin.bracket.curly.function.definition.cpp",
+                "punctuation.section.block.begin.bracket.curly.class.cpp",
+                "punctuation.section.block.end.bracket.curly.function.definition.cpp",
+                "punctuation.section.block.end.bracket.curly.class.cpp",
+                "punctuation.section.angle-brackets.begin.template.call.cpp",
+                "punctuation.section.angle-brackets.end.template.call.cpp",
+                "keyword.operator.comparison.cpp"
+            ],
+            "name": "c++ 括号",
+            "settings": {
+                "foreground": "#e8ba36",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function.preprocessor.cpp",
+            ],
+            "name": "c++ 预处理",
+            "settings": {
+                "foreground": "#908b25",
+                "fontStyle": ""
+            }
+        }
+    ]
+}
