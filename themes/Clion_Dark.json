@@ -16,6 +16,7 @@
     "semanticTokenColors": {
         "function.builtin:python": "#8888C6",
         "class:cpp":"#b9bcd1",
+        "class.deduced.defaultLibrary.globalScope:cpp":"#CF8E6D",
         "class.declaration.definition.constructorOrDestructor.classScope:cpp":"#56a8f5",
         "class.declaration.declaration.constructorOrDestructor.classScope:cpp":"#56a8f5",
         "function:cpp":"#56a8f5",
@@ -130,6 +131,7 @@
         {
             "scope": [
                 "entity.name.scope-resolution.function.call.cpp",
+                "entity.name.scope-resolution.function.definition.cpp",
                 "meta.body.function.definition.cpp",
                 "meta.function.definition.cpp",
                 "source.cpp",
