@@ -2,7 +2,7 @@
   "name": "jetbrains-new-dark-theme",
   "displayName": "Jetbrains New Dark Theme",
   "description": "A theme base on Jetbrans new dark ui color",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "publisher": "MichaelZhou",
   "license": "./LICENCE",
   "engines": {
