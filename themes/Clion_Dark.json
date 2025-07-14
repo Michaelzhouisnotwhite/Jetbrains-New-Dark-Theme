@@ -151,6 +151,8 @@
                 "storage.type.namespace.definition.cpp",
                 "storage.type.class.cpp",
                 "storage.type.modifier.access.control.public.cpp",
+                "storage.type.modifier.access.control.private.cpp",
+                "storage.type.modifier.access.control.protected.cpp",
                 "storage.type.built-in.primitive.cpp",
                 "storage.type.primitive.cpp",
                 "meta.body.function.definition.cpp",
