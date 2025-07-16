@@ -168,6 +168,7 @@
                 "keyword.control.continue.cpp",
                 "storage.type.modifier.access.public.cpp",
                 "keyword.control.if.cpp",
+                "keyword.control.else.cpp",
                 "keyword.control.for.cpp"
             ],
             "name": "c++ auto",
