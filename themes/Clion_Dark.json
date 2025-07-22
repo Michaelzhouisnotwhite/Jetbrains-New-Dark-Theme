@@ -15,6 +15,7 @@
     },
     "semanticTokenColors": {
         "function.builtin:python": "#8888C6",
+        "*.deduced:cpp":"#CF8E6D",
         "class:cpp": "#b9bcd1",
         "class.deduced:cpp": "#CF8E6D",
         "class.deduced.defaultLibrary.globalScope:cpp": "#CF8E6D",
@@ -27,7 +28,7 @@
         "method.classScope:cpp": "#b9bcd1",
         "class.globalScope:cpp": "#b5b6e3",
         "method.declaration.definition.classScope:cpp": "#56a8f5",
-        "class.declaration.definition.globalScope:cpp": "#56a8f5",
+        "class.declaration.definition.globalScope:cpp": "#b5b6e3",
         "*.decorator:python": "#debc7b",
         "selfParameter:python": "#94558D",
         "parameter:python": "#B189F5",
@@ -36,6 +37,40 @@
         "method:python": "#debc7b"
     },
     "tokenColors": [
+        {
+            "scope":[
+                "support.function.cmake"
+            ],
+            "settings": {
+                "foreground": "#debc7b",
+            }
+        },
+        {
+            "scope":[
+                "string.unquoted.cmake"
+            ],
+            "settings": {
+                "foreground": "#bcbec4",
+            }
+        },
+        {
+            "scope":[
+                "support.type.targetProperty.cmake"
+            ],
+            "settings": {
+                "foreground": "#cf8e6d",
+            }
+        },
+        {
+            "scope":[
+                "support.type.targetProperty.cmake",
+                "keyword.control.conditional.cmake",
+                "keyword.control.loop.cmake"
+            ],
+            "settings": {
+                "foreground": "#cf8e6d",
+            }
+        },
         {
             "scope": [
                 "keyword.control",
@@ -169,7 +204,9 @@
                 "storage.type.modifier.access.public.cpp",
                 "keyword.control.if.cpp",
                 "keyword.control.else.cpp",
-                "keyword.control.for.cpp"
+                "keyword.control.for.cpp",
+                "keyword.control.switch.cpp",
+                "keyword.control.case.cpp"
             ],
             "name": "c++ auto",
             "settings": {
