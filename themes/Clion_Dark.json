@@ -14,8 +14,42 @@
         // "editor.findMatchBorder":"#11495780"
     },
     "semanticTokenColors": {
+        "variable.readonly.functionScope:cpp": "#BCBEC4", // 普通颜色
+        "enumMember.modifiers.declaration.readonly.globalScope:cpp": {
+            "italic": true,
+            "foreground": "#C77DBB"
+        },
+        "enumMember.declaration.readonly.globalScope:cpp": {
+            "italic": true,
+            "foreground": "#C77DBB"
+        },
+        "enumMember.readlonly.globalScope:cpp": {
+            "italic": true,
+            "foreground": "#C77DBB"
+        },
+        "variable.modifiers.declaration.definition.readonly.fileScope:cpp": {
+            "italic": true,
+            "foreground": "#C77DBB"
+        },
+        "variable.readonly.fileScope:cpp": {
+            "italic": true,
+            "foreground": "#C77DBB"
+        },
+        "variable.modifiers.declaration.definition.readonly.static.classScope:cpp": {
+            "italic": true,
+            "foreground": "#C77DBB"
+        },
+        "enum.modifiers.declaration.globalScope:cpp": {
+            "foreground": "#BCBEC4" // 比白色更蓝一点点
+        },
+        "enum.declaration.globalScope:cpp": {
+            "foreground": "#BCBEC4" // 比白色更蓝一点点
+        },
+        "function.modifiers.defaultLibrary.fileScope:cpp": {
+            "foreground": "#BCBEC4"
+        },
         "function.builtin:python": "#8888C6",
-        "*.deduced:cpp":"#CF8E6D",
+        "*.deduced:cpp": "#CF8E6D",
         "class:cpp": "#b9bcd1",
         "class.deduced:cpp": "#CF8E6D",
         "class.deduced.defaultLibrary.globalScope:cpp": "#CF8E6D",
@@ -39,6 +73,15 @@
     "tokenColors": [
         {
             "scope":[
+                "storage.type.enum",
+                "storage.type.enum.enum-key.class.cpp"
+            ],
+            "settings": {
+                "foreground": "#CF8E6D",
+            }
+        },
+        {
+            "scope": [
                 "support.function.cmake"
             ],
             "settings": {
@@ -46,7 +89,7 @@
             }
         },
         {
-            "scope":[
+            "scope": [
                 "string.unquoted.cmake"
             ],
             "settings": {
@@ -54,7 +97,7 @@
             }
         },
         {
-            "scope":[
+            "scope": [
                 "support.type.targetProperty.cmake"
             ],
             "settings": {
@@ -62,7 +105,7 @@
             }
         },
         {
-            "scope":[
+            "scope": [
                 "support.type.targetProperty.cmake",
                 "keyword.control.conditional.cmake",
                 "keyword.control.loop.cmake"
